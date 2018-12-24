@@ -1,0 +1,38 @@
+body {
+  background-color: #3f1a20;
+}
+.main-photo {
+  display: block;
+  border-radius: 50%;
+  width: 350px;
+  height: 350px;
+  border: solid #992333 1px;
+  padding: 5px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.main-nav {
+  overflow: hidden;
+  list-style-type: none;
+  margin: 8px;
+  padding: 0;
+  background-color: #dcb06b;
+}
+.main-link {
+  float: top;
+}
+.main-a {
+  display: block;
+  color: #3f1a20;
+  text-align: center;
+  padding: 10px 12px;
+  text-decoration: none;
+}
+.phone-number {
+  text-align: right;
+  color: #ab7f4f;
+}
+.contact-email {
+  text-align: right;
+  color: #ab7f4f;
+}

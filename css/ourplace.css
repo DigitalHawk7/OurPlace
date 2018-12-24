@@ -1,0 +1,145 @@
+/*This is the background color*/
+body {
+  background-color: ghostwhite;
+  background-image: url("../pictures/new-wood.jpeg");
+  background-repeat: round;
+  font-style: helvetica, serif, arial;
+  margin: 0;
+  padding: 0;
+}
+header {
+  text-align: center;
+}
+div {
+  border: white solid 7px;
+  background-color: black;
+  padding-top: 50px;
+  padding-right: 50px;
+  padding-bottom: 15px;
+  padding-left: 50px;
+}
+footer {
+  border: white solid 7px;
+  color: white;
+  background-color: black;
+  font-size: 1.2em;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+
+}
+.list { /* navigation links <li> */
+  display: inline-block;
+  font-size: 1.5em;
+  padding-right: 150px;
+  padding-bottom: 5px;
+}
+.home { /* welcome title */
+  font-size: 4.5em;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  color: white;
+}
+.sub { /* sub-title */
+  font-size: 2.25em;
+  margin-top: 5px;
+  color: white;
+
+}
+.navigation {
+  list-style: none;
+  overflow: hidden;
+  float: center;
+  margin-left: 50px;
+  /*border-top: black solid 1px;*/
+
+}
+.hours {
+  text-align: center;
+  line-height: 4;
+  font-size: 1.25em;
+  background-color: black;
+  color: white;
+  margin-top: 60px;
+  margin-left: 260px;
+  margin-right: 260px;
+  border: white solid 7px;
+  padding-top: 10px;
+  padding-bottom: 90px;
+}
+.hours-title {
+  /*text-decoration: underline;
+  text-decoration-color: maroon;*/
+  font-size: 2em;
+  background-color: dimgray;
+}
+.hours-op {
+  list-style: none;
+  font-size: 1.1em;
+  margin-right: 45px;
+  text-decoration: underline;
+  text-decoration-color: dimgray;
+}
+.contact-title {
+  text-decoration: underline;
+  font-size: 1.2em;
+}
+.contact {
+  background-color: white;
+  text-align: center;
+  font-size: 1em;
+  margin-top: 100px;
+  margin-right: 500px;
+  margin-bottom: 100px;
+  margin-left: 500px;
+  padding-top: 3px;
+  border: solid  black 3px;
+}
+.contact-op {
+  margin-top: 1px;
+}
+.address {
+  text-decoration: underline;
+}
+.facebook {
+  font-size: 1.3em;
+}
+.copy,
+.facebook {
+  margin-right: 160px;
+  list-style: none;
+  display: inline-block;
+}
+.facebook a:link {
+  color: maroon;
+}
+.facebook a:visited {
+  color: white;
+}
+.facebook a:hover {
+  color: dimgray;
+}
+.facebook a:active {
+  color: black;
+}
+
+/*.list li:hover {
+  font-size: 1.2em;
+}*/
+
+a {
+  text-decoration: none;
+}
+a:link {
+  color: blue;
+}
+a:visited {
+  color: navy;
+}
+a:hover {
+  color: dimgray;
+  font-size: 1.24em;
+}
+a:active {
+  color: black;
+}
