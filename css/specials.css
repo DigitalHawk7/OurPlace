@@ -1,4 +1,4 @@
-/*This is the background color*/
+/* all page layout */
 body {
   background-color: ghostwhite;
   background-image: url("../pictures/new-wood.jpeg");
@@ -7,29 +7,25 @@ body {
   margin: 0;
   padding: 0;
 }
-header {
+header { /* .home .sub .navigation .list */
   text-align: center;
 }
-div {
-  border: white solid 7px;
+div { /* .home .sub */
+  border: white solid 5px;
   background-color: black;
   padding-top: 50px;
   padding-right: 50px;
   padding-bottom: 15px;
   padding-left: 50px;
-
 }
-footer {
-  border: white solid 7px;
+footer { /* .copy .facebook */
+  border: white solid 5px;
   color: white;
   background-color: black;
   font-size: 1.2em;
   text-align: center;
   padding-top: 40px;
   padding-bottom: 40px;
-}
-strong {
-  text-decoration: underline;
 }
 .list { /* navigation links <li> */
   display: inline-block;
@@ -47,15 +43,77 @@ strong {
   font-size: 2.25em;
   margin-top: 5px;
   color: white;
-
 }
-.navigation {
+.navigation { /* home, specials, about us, contact */
   list-style: none;
   overflow: hidden;
   float: center;
   margin-left: 50px;
-  /*border-top: black solid 1px;*/
 }
+
+/* contact section specifics */
+.contact-title {
+  text-decoration: underline;
+  font-size: 1.2em;
+}
+.contact {
+  background-color: white;
+  text-align: center;
+  font-size: 1em;
+  margin: 100px 500px 100px 500px;
+  padding-top: 3px;
+  border: solid  black 3px;
+  max-width: 100%;
+}
+.contact-op {
+  margin-top: 1px;
+}
+.address {
+  text-decoration: underline;
+}
+
+/* footer specifics */
+.facebook {
+  font-size: 1.3em;
+}
+.copy,
+.facebook {
+  margin-right: 160px;
+  list-style: none;
+  display: inline-block;
+}
+.facebook a:link {
+  color: maroon;
+}
+.facebook a:visited {
+  color: white;
+}
+.facebook a:hover {
+  color: dimgray;
+}
+.facebook a:active {
+  color: black;
+}
+
+/* all link specifications */
+a {
+  text-decoration: none;
+}
+a:link {
+  color: blue;
+}
+a:visited {
+  color: white;
+}
+a:hover {
+  color: dimgray;
+  font-size: 1.24em;
+}
+a:active {
+  color: black;
+}
+
+/* specials page specifications */
 .daily-title {
   background: dimgray;
   font-size: 2.1em;
@@ -88,45 +146,6 @@ strong {
 .extra-special p {
   font-size: 1.15em;
 }
-.contact-title {
-  text-decoration: underline;
-}
-.contact {
-  text-align: center;
-  font-size: 1em;
-  margin-top: 100px;
-  margin-right: 500px;
-  margin-bottom: 100px;
-  margin-left: 500px;
-  padding-top: 3px;
-  border-top: solid black 3px;
-  border-bottom: solid black 3px;
-}
-.address {
-  text-decoration: underline;
-}
-
-.facebook {
-  font-size: 1.3em;
-}
-.copy,
-.facebook {
-  margin-right: 160px;
-  list-style: none;
-  display: inline-block;
-}
-.facebook a:link {
-  color: maroon;
-}
-.facebook a:visited {
-  color: white;
-}
-.facebook a:hover {
-  color: blue;
-}
-.facebook a:active {
-  color: black;
-}
 
 #specials {
   border: white solid 7px;
@@ -137,29 +156,3 @@ strong {
   margin-right: 260px;
   padding-bottom: 10px;
 }
-/* Link options */
-
-a {
-  text-decoration: none;
-}
-a:link {
-  color: maroon;
-}
-a:visited {
-  color: darkblue;
-}
-a:hover {
-  color: blue;
-  font-size: 1.24em;
-}
-a:active {
-  color: black;
-}
-
-/* This is for the contact page only */
-
-/*.box {
-  width: 150px;
-  height: 300px;
-  border: 1px solid black;
-}*/

@@ -1,4 +1,4 @@
-/*This is the background color*/
+/* all page layout */
 body {
   background-color: ghostwhite;
   background-image: url("../pictures/new-wood.jpeg");
@@ -7,26 +7,25 @@ body {
   margin: 0;
   padding: 0;
 }
-header {
+header { /* .home .sub .navigation .list */
   text-align: center;
 }
-div {
-  border: white solid 7px;
+div { /* .home .sub */
+  border: white solid 5px;
   background-color: black;
   padding-top: 50px;
   padding-right: 50px;
   padding-bottom: 15px;
   padding-left: 50px;
 }
-footer {
-  border: white solid 7px;
+footer { /* .copy .facebook */
+  border: white solid 5px;
   color: white;
   background-color: black;
   font-size: 1.2em;
   text-align: center;
   padding-top: 40px;
   padding-bottom: 40px;
-
 }
 .list { /* navigation links <li> */
   display: inline-block;
@@ -44,42 +43,15 @@ footer {
   font-size: 2.25em;
   margin-top: 5px;
   color: white;
-
 }
-.navigation {
+.navigation { /* home, specials, about us, contact */
   list-style: none;
   overflow: hidden;
   float: center;
   margin-left: 50px;
-  /*border-top: black solid 1px;*/
+}
 
-}
-.hours {
-  text-align: center;
-  line-height: 4;
-  font-size: 1.25em;
-  background-color: black;
-  color: white;
-  margin-top: 60px;
-  margin-left: 260px;
-  margin-right: 260px;
-  border: white solid 7px;
-  padding-top: 10px;
-  padding-bottom: 90px;
-}
-.hours-title {
-  /*text-decoration: underline;
-  text-decoration-color: maroon;*/
-  font-size: 2em;
-  background-color: dimgray;
-}
-.hours-op {
-  list-style: none;
-  font-size: 1.1em;
-  margin-right: 45px;
-  text-decoration: underline;
-  text-decoration-color: dimgray;
-}
+/* contact section specifics */
 .contact-title {
   text-decoration: underline;
   font-size: 1.2em;
@@ -88,10 +60,7 @@ footer {
   background-color: white;
   text-align: center;
   font-size: 1em;
-  margin-top: 100px;
-  margin-right: 500px;
-  margin-bottom: 100px;
-  margin-left: 500px;
+  margin: 100px 500px 100px 500px;
   padding-top: 3px;
   border: solid  black 3px;
 }
@@ -101,6 +70,8 @@ footer {
 .address {
   text-decoration: underline;
 }
+
+/* footer specifics */
 .facebook {
   font-size: 1.3em;
 }
@@ -123,10 +94,7 @@ footer {
   color: black;
 }
 
-/*.list li:hover {
-  font-size: 1.2em;
-}*/
-
+/* all link specifications */
 a {
   text-decoration: none;
 }
@@ -134,7 +102,7 @@ a:link {
   color: blue;
 }
 a:visited {
-  color: navy;
+  color: white;
 }
 a:hover {
   color: dimgray;
@@ -142,4 +110,30 @@ a:hover {
 }
 a:active {
   color: black;
+}
+
+/* Home page specifics */
+.hours { /* .hours-title, .hours-op */
+  text-align: center;
+  line-height: 4;
+  font-size: 1.25em;
+  background-color: black;
+  color: white;
+  margin-top: 60px;
+  margin-left: 260px;
+  margin-right: 260px;
+  border: white solid 7px;
+  padding-top: 10px;
+  padding-bottom: 90px;
+}
+.hours-title {
+  font-size: 2em;
+  background-color: dimgray;
+}
+.hours-op {
+  list-style: none;
+  font-size: 1.1em;
+  margin-right: 45px;
+  text-decoration: underline;
+  text-decoration-color: dimgray;
 }

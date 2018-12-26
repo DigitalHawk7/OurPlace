@@ -1,38 +1,130 @@
+/* all page layout */
 body {
-  background-color: #3f1a20;
-}
-.main-photo {
-  display: block;
-  border-radius: 50%;
-  width: 350px;
-  height: 350px;
-  border: solid #992333 1px;
-  padding: 5px;
-  margin-left: auto;
-  margin-right: auto;
-}
-.main-nav {
-  overflow: hidden;
-  list-style-type: none;
-  margin: 8px;
+  background-color: ghostwhite;
+  background-image: url("../pictures/new-wood.jpeg");
+  background-repeat: round;
+  font-style: helvetica, serif, arial;
+  margin: 0;
   padding: 0;
-  background-color: #dcb06b;
 }
-.main-link {
-  float: top;
-}
-.main-a {
-  display: block;
-  color: #3f1a20;
+header { /* .home .sub .navigation .list */
   text-align: center;
-  padding: 10px 12px;
+}
+div { /* .home .sub */
+  border: white solid 5px;
+  background-color: black;
+  padding-top: 50px;
+  padding-right: 50px;
+  padding-bottom: 15px;
+  padding-left: 50px;
+}
+footer { /* .copy .facebook */
+  border: white solid 5px;
+  color: white;
+  background-color: black;
+  font-size: 1.2em;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.list { /* navigation links <li> */
+  display: inline-block;
+  font-size: 1.5em;
+  padding-right: 150px;
+  padding-bottom: 5px;
+}
+.home { /* welcome title */
+  font-size: 4.5em;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  color: white;
+}
+.sub { /* sub-title */
+  font-size: 2.25em;
+  margin-top: 5px;
+  color: white;
+}
+.navigation { /* home, specials, about us, contact */
+  list-style: none;
+  overflow: hidden;
+  float: center;
+  margin-left: 50px;
+}
+
+/* contact section specifics */
+.contact-title {
+  text-decoration: underline;
+  font-size: 1.2em;
+}
+.contact {
+  background-color: white;
+  text-align: center;
+  font-size: 1em;
+  margin: 100px 500px 100px 500px;
+  padding-top: 3px;
+  border: solid  black 3px;
+}
+.contact-op {
+  margin-top: 1px;
+}
+.address {
+  text-decoration: underline;
+}
+
+/* footer specifics */
+.facebook {
+  font-size: 1.3em;
+}
+.copy,
+.facebook {
+  margin-right: 160px;
+  list-style: none;
+  display: inline-block;
+}
+.facebook a:link {
+  color: maroon;
+}
+.facebook a:visited {
+  color: white;
+}
+.facebook a:hover {
+  color: dimgray;
+}
+.facebook a:active {
+  color: black;
+}
+
+/* all link specifications */
+a {
   text-decoration: none;
 }
-.phone-number {
-  text-align: right;
-  color: #ab7f4f;
+a:link {
+  color: blue;
 }
-.contact-email {
-  text-align: right;
-  color: #ab7f4f;
+a:visited {
+  color: white;
+}
+a:hover {
+  color: dimgray;
+  font-size: 1.24em;
+}
+a:active {
+  color: black;
+}
+
+/* about us page specifications */
+.about-us {
+  text-align: center;
+  line-height: 2;
+  font-size: 1.25em;
+  background-color: black;
+  color: white;
+  margin-top: 60px;
+  margin-left: 260px;
+  margin-right: 260px;
+  border: white solid 7px;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 90px;
+  padding-left: 10px;
 }
