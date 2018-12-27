@@ -13,10 +13,7 @@ header { /* .home .sub .navigation .list */
 div { /* .home .sub */
   border: white solid 5px;
   background-color: black;
-  padding-top: 50px;
-  padding-right: 50px;
-  padding-bottom: 15px;
-  padding-left: 50px;
+  padding: 50px 50px 15px 50px;
 }
 footer { /* .copy .facebook */
   border: white solid 5px;
@@ -24,19 +21,16 @@ footer { /* .copy .facebook */
   background-color: black;
   font-size: 1.2em;
   text-align: center;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding: 40px 0 40px 0;
 }
 .list { /* navigation links <li> */
   display: inline-block;
   font-size: 1.5em;
-  padding-right: 150px;
-  padding-bottom: 5px;
+  padding: 0 150px 5px 0;
 }
 .home { /* welcome title */
   font-size: 4.5em;
-  margin-top: 10px;
-  margin-bottom: 5px;
+  margin: 10px 0 5px 0;
   color: white;
 }
 .sub { /* sub-title */
@@ -124,8 +118,7 @@ a:active {
   background: dimgray;
   font-size: 2.1em;
   margin-top: 45px;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding: 30px 0 30px 0;
 }
 .main-par {
   padding-left: 120px;
@@ -136,8 +129,6 @@ a:active {
   text-align: center;
   font-size: 1.25em;
   margin-bottom: 75px;
-  /*margin-left: 200px;
-  margin-right: 200px;*/
   line-height: 2;
 }
 .extra-special {

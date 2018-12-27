@@ -21,19 +21,16 @@ footer { /* .copy .facebook */
   background-color: black;
   font-size: 1.2em;
   text-align: center;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding: 40px 0 40px 0;
 }
 .list { /* navigation links <li> */
   display: inline-block;
   font-size: 1.5em;
-  padding-right: 150px;
-  padding-bottom: 5px;
+  padding: 0 150px 5px 0;
 }
 .home { /* welcome title */
   font-size: 4.5em;
-  margin-top: 10px;
-  margin-bottom: 5px;
+  margin: 10px 0 5px 0;
   color: white;
 }
 .sub { /* sub-title */
