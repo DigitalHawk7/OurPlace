@@ -32,6 +32,7 @@ footer { /* .copy .facebook */
   font-size: 1.5em;
   padding-right: 150px;
   padding-bottom: 5px;
+  max-width: 100%;
 }
 .home { /* welcome title */
   font-size: 4.5em;
@@ -126,12 +127,12 @@ a:active {
   font-size: 1.25em;
   background-color: black;
   color: white;
-  margin-top: 60px;
-  margin-left: 260px;
-  margin-right: 260px;
+  margin: 60px 260px 0 260px;
   border: white solid 7px;
   padding-top: 10px;
   padding-bottom: 90px;
+  width: 55%;
+  max-width: 100%;
 }
 .hours-title {
   font-size: 2em;
