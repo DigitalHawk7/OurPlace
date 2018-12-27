@@ -13,10 +13,7 @@ header { /* .home .sub .navigation .list */
 div { /* .home .sub */
   border: white solid 5px;
   background-color: black;
-  padding-top: 50px;
-  padding-right: 50px;
-  padding-bottom: 15px;
-  padding-left: 50px;
+  padding: 50px 50px 15px 50px;
 }
 footer { /* .copy .facebook */
   border: white solid 5px;
@@ -84,7 +81,7 @@ footer { /* .copy .facebook */
 }
 .copy,
 .facebook {
-  margin-right: 160px;
+  margin-right: 100px;
   list-style: none;
   display: inline-block;
 }
@@ -126,12 +123,9 @@ a:active {
   font-size: 1.25em;
   background-color: black;
   color: white;
-  margin-top: 60px;
-  margin-left: 260px;
-  margin-right: 260px;
+  margin: 60px 260px 0 260px;
   border: white solid 7px;
-  padding-top: 10px;
-  padding-right: 10px;
-  padding-bottom: 90px;
-  padding-left: 10px;
+  padding: 10px 20px 90px 20px;
+  width: 55%;
+  max-width: 100%;
 }
