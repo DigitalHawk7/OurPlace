@@ -1,142 +1,62 @@
-/* all page layout */
+/* Main Page Details */
 body {
-  background-color: ghostwhite;
-  background-image: url("../pictures/new-wood.jpeg");
-  background-repeat: round;
-  font-style: helvetica, serif, arial;
+  background-color: black;
+}
+div {
+}
+.whole-page {
+  background-color: white;
+  padding: 40px 40px 50px 40px;
+  margin: 20px 20px 0 20px;
+}
+ul {
+  list-style-type: none;
   margin: 0;
   padding: 0;
 }
-header { /* .home .sub .navigation .list */
+.page-head {
   text-align: center;
+  padding-bottom: 120px;
 }
-div { /* .home .sub */
-  border: white solid 5px;
-  background-color: black;
-  padding: 50px 50px 15px 50px;
+.home {
+  font-size: 90px;
+  margin: 0px;
 }
-footer { /* .copy .facebook */
-  border: white solid 5px;
-  color: white;
-  background-color: black;
-  font-size: 1.2em;
+.sub {
+  font-size: 35px;
+  margin: 0;
+  padding-bottom: 10px;
+}
+.navigation {
   text-align: center;
-  padding: 40px 0 40px 0;
+  padding: 35px 35px;
+  border-top: black solid 2px;
+  border-bottom: black solid 2px;
 }
-.list { /* navigation links <li> */
-  display: inline-block;
-  font-size: 1.5em;
-  padding: 0 150px 5px 0;
-  max-width: 100%;
+.list {
+  display:inline-block;
+  margin: 0 75px 0 75px;
 }
-.home { /* welcome title */
-  font-size: 4.5em;
-  margin-top: 10px;
-  margin-bottom: 5px;
-  color: white;
+footer {
+  margin: 120px;
+  padding: 20px 0 20px 0;
+  border-top: black solid 2px;
 }
-.sub { /* sub-title */
-  font-size: 2.25em;
-  margin-top: 5px;
-  color: white;
+.copy {
+  float: left;
 }
-.navigation { /* home, specials, about us, contact */
-  list-style: none;
-  overflow: hidden;
-  float: center;
-  margin-left: 50px;
-}
-
-/* contact section specifics */
-.center {
-  text-align: center;
-}
-.contact-title {
-  text-decoration: underline;
-  font-size: 1.2em;
-}
-.contact {
-  display: inline-block;
-  background-color: white;
-  text-align: center;
-  font-size: 1em;
-  line-height:1.5;
-  margin: 100px 100px;
-  padding-top: 3px;
-  border: solid  black 3px;
-  width: 15%;
-  max-width: 100%;
-}
-.contact-op {
-  margin-top: 1px;
-}
-.address {
-  text-decoration: underline;
-}
-
-/* footer specifics */
 .facebook {
-  font-size: 1.3em;
+  float: right;
 }
-.copy,
-.facebook {
-  margin-right: 100px;
-  list-style: none;
-  display: inline-block;
-}
-.facebook a:link {
-  color: maroon;
-}
-.facebook a:visited {
-  color: white;
-}
-.facebook a:hover {
-  color: dimgray;
-}
-.facebook a:active {
-  color: black;
-}
-
-/* all link specifications */
-a {
-  text-decoration: none;
-}
-a:link {
-  color: blue;
-}
-a:visited {
-  color: white;
-}
-a:hover {
-  color: dimgray;
-  font-size: 1.24em;
-}
-a:active {
-  color: black;
-}
-
-/* Home page specifics */
-.hours { /* .hours-title, .hours-op */
+/* OurPlace Main Content */
+.ourplace-page {
   text-align: center;
-  line-height: 4;
-  font-size: 1.25em;
-  background-color: black;
-  color: white;
-  margin: 60px 260px 0 260px;
-  border: white solid 7px;
-  padding-top: 10px;
-  padding-bottom: 90px;
-  width: 55%;
-  max-width: 100%;
+  margin: 0;
+  padding: 0;
 }
-.hours-title {
-  font-size: 2em;
-  background-color: dimgray;
+.hours-card {
+  float: left;
 }
-.hours-op {
-  list-style: none;
-  font-size: 1.1em;
-  margin-right: 45px;
-  text-decoration: underline;
-  text-decoration-color: dimgray;
+.contact-card {
+  float: right;
 }
